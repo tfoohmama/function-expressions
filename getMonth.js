@@ -1,3 +1,4 @@
-console.log(1 +  -"1" + "2");
-const apmRootPath = path.join(repositoryRootPath, 'apm');
-console.log("1 || 2 = "+(1 || 2));
+console.log( "A" - "B" + "2");
+const randomBoolean = () => Math.random() >= 0.5;
+const value = ( 5 < 7 ) ? "True" : "False" ;
+console.log(false === '0');
