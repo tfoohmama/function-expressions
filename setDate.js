@@ -1,5 +1,3 @@
-const channelName = getChannelName(channel);
-const value = ( 5 < 7 ) ? "True" : "False" ;
-const added = [0, 1, 2, 3, 4].map((item) => item + 1);
-const updated = numbers.filter(element => element > 6);
-console.log(1 +  +"2" + "2");
+const minNumber = arr => Math.min(...arr);
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
