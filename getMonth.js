@@ -1,3 +1,3 @@
-const reversedString = str => str.split('').reverse().join('');
-const isArray = (arr) => Array.isArray(arr);
-const isWeekday = (date) => date.getDay() % 6 !== 0;
+function myAPITS(someString: string, someNum: number) { ... };
+const stringReverse = str => str.split("").reverse().join("");
+var DELIM_SIZE = 4;
