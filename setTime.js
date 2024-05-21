@@ -1,1 +1,1 @@
-const reversedString = str => str.split('').reverse().join('');
+const isTabInView = () => !document.hidden;
