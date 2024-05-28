@@ -1,3 +1,2 @@
-const isEmptyArray = arr => !arr.length;
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
+const currentDate = () => new Date().toLocaleDateString('en-US');
