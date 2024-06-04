@@ -1,1 +1,2 @@
-const isTabInView = () => !document.hidden;
+const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
