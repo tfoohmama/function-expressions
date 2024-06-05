@@ -1,3 +1,1 @@
-console.log(1 +  -"1" + "2");
-console.log(typeof typeof 1);
-const merge = (a, b) => [...a, ...b];
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
