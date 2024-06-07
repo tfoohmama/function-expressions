@@ -1,2 +1,2 @@
-const intermediateAppPath = path.join(buildOutputPath, 'app');
-const repositoryRootPath = path.resolve(__dirname, '..');
+const channelName = getChannelName(channel);
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
