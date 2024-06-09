@@ -1,2 +1,2 @@
-const resultingPromises = urls.map((url) => makHttpRequest(url));
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+const uniqueArray = arr => [...new Set(arr)];
+const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
