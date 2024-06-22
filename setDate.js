@@ -1,3 +1,3 @@
-const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
-console.log("0 && 1 = "+(0 && 1));
-const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+const merge = (a, b) => a.concat(b);
+console.log(1 +  "2" + "2");
+const timeFromDate = date => date.toTimeString().slice(0, 8);
