@@ -1,3 +1,2 @@
-const removeDuplicates = (arr) => [...new Set(arr)];
-const getRandomBoolean = () => Math.random() >= 0.5;
-console.log( "A" - "B" + "2");
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+const flattenedArray = arr => [].concat(...arr);
