@@ -1,2 +1,3 @@
-const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
-console.log(false === '0');
+const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
+const result = await makeHttpRequest(url);
+const apmRootPath = path.join(repositoryRootPath, 'apm');
