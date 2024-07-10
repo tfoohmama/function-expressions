@@ -1,2 +1,3 @@
-const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
-const toggleBool = () => (bool = !bool);
+const merge = (a, b) => a.concat(b);
+const apmRootPath = path.join(repositoryRootPath, 'apm');
+const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
