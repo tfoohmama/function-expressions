@@ -1,1 +1,2 @@
-const isEmptyArray = arr => !arr.length;
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
+console.log("1 && 2 = "+(1 && 2));
