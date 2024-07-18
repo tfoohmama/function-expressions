@@ -1,2 +1,2 @@
-console.log("1 && 2 = "+(1 && 2));
-const isTabInView = () => !document.hidden;
+const buildOutputPath = path.join(repositoryRootPath, 'out');
+const lastElement = arr => arr[arr.length - 1];
