@@ -1,3 +1,3 @@
-const merge = (a, b) => a.concat(b);
-const apmRootPath = path.join(repositoryRootPath, 'apm');
-const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+const result = await makeHttpRequest(url);
+const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
