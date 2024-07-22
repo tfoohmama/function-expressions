@@ -1,3 +1,3 @@
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
-const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
-const apmRootPath = path.join(repositoryRootPath, 'apm');
+var arr1 = "john".split('');
+console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
+const channelName = getChannelName(channel);
