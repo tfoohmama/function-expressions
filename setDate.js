@@ -1,3 +1,3 @@
-const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
-const scriptRootPath = path.join(repositoryRootPath, 'script');
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+const merge = Object.assign({}, obj1, obj2);
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+const randomBoolean = () => Math.random() >= 0.5;
