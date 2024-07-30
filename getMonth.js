@@ -1,1 +1,2 @@
-const executableName = getExecutableName(channel, appName);
+var arr3 = "jones".split('');
+const apmRootPath = path.join(repositoryRootPath, 'apm');
