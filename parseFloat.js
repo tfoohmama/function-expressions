@@ -1,2 +1,2 @@
-var regexp  = new RegExp('{{([^}]+)}}', 'g');
-function myAPITS(someString: string, someNum: number) { ... };
+const toggleBool = () => (bool = !bool);
+console.log(typeof typeof 1);
